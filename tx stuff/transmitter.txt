@@ -1,0 +1,84 @@
+channels have mixing added to them
+
+default is 100% mixing from a single input with normal direction with a one to one mapping from these inputs:
+
+
+ch1 steering
+ch2 throttle
+ch3 stick h
+ch4 stick v
+ch5 pot 1
+ch6 pot 2
+ch7 sw 1
+ch8 sw 2
+
+
+sw 1 and sw 2 are three position switches, sw 3 and sw 4 are two position switches
+
+this leaves sw 3 and sw 4 unassigned
+
+you can edit, remove and add mixes to any channel using the mixing screen available for each channel.
+
+the two primary screens are channels and inputs. additional screens include telemetry and calibration.
+
+inputs will only display the inputs assigned to channels via mixes.
+
+input names can be edited.
+
+primary screen on power up is the inputs screen.
+
+to adjust center position for any channel, as well as end points, use the individual channel
+screen for editing a specific channel.
+
+there are 4 total trims, steering, throttle, and thumb stick (h & v) by default.
+
+trim switches can be moved to other channels if desired.
+
+trim switches can be used as inputs if desired.
+
+press center buttons to change trim buttons to editing buttons.
+
+
+
+
+radio specific data:
+
+
+8 blocks of calibration data
+min
+max
+center
+
+8 * 6 == 48 bytes of calibration data
+
+
+
+
+each model:
+
+10 character name
+id
+telemetry flag
+trim1
+trim2
+trim3
+trim4
+10 + 2 + 2 + 8  == 22 bytes
+
+8 blocks of channel data
+min
+max
+center
+direction
+8 * 8               == 64 bytes
+
+
+from 1 to n mix data
+channel id
+mix type
+input id
+input weight
+input direction
+
+2 + 2 + 2 + 2 + 2    == 10 bytes per mix
+

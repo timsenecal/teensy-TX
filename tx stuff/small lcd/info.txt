@@ -1,0 +1,27 @@
+100% Brand New and High Quality
+ 
+Parameters and Description:
+ 
+Model: ZLE12864A (white backlight black word)
+Overall dimensions: 54.0X50.0X7.0 MM
+View size: 44.0X29.0 MM
+Dot size: 0.29X0.36 MM
+Driving voltage: 5.0V or 3.0V
+With drive: ST7565P
+Backlight: LED backlight (white)
+Interface: SPI serial interface
+Operating temperature: -20 - +70
+Storage temperature: -30 - +80
+ 
+The main technical parameters:
+ 
+(1). Power: VDD = + 5V or + 3V, software can be used to adjust the contrast. (default 5V)
+(2). Display: 128 (column) X 64 (row)
+(3). Drive: 1/64 DUTY, 1/9 BIAS
+(4). Display Mode: FSTN is translucent (black on white)
+(5). Backlight characteristics: white LED side backlight, current: 80MA
+(6). Control chip: ST7565P
+
+you can choose to use the serial or parallel port 
+Resistor R1 welding 0 ohm, for the parallel port, 
+Resistor R2 welding 0 ohm, for the serial port
