@@ -1,10 +1,10 @@
 # teensy-TX
 
+this is an arduino IDE based source code for a Teensy 4.1 based transmitter for r/c vehicles.  
+
 based on work done for a stm32 "blue-pill", which had too much interference on the analog inputs...
 i switched to the teensy to try to resolve that... switching to the 4.1 has some advantages, more input pins, 
 and a much higher performance cpu, more ram, more flash, as well as a built in microsd card reader.
-
-this is an arduino IDE based source code for a Teensy 4.1 based transmitter for r/c vehicles.  
 
 it isn't currently finished, only about 50% of the features work.
 
