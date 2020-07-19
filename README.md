@@ -8,7 +8,7 @@ and a much higher performance cpu, more ram, more flash, as well as a built in m
 
 it isn't currently finished, only about 50% of the features work.
 
-current plans: it is designed to drive a 128x64 pixel monochrome LCD panel, with backlight, have 6 analog inputs, 2 2 position switches,
+current plans: it is designed to drive a 128x64 pixel monochrome LCD panel, with backlight, have 4 analog inputs, 2 2 position switches,
 and 2 3 position switches, as well as trim features for four analog inputs, and has serial input for telemetry coming 
 back from the receiver...  it currently only handles PPM output to a single RF module, presumably 2.4 ghz.
 It also supports writing and reading model information from the microsd card, it will feature generic mixing of channels, as well as a
