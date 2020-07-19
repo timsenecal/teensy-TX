@@ -1,6 +1,6 @@
 # teensy-TX
 
-based on work done for a stm32 "blue-pill", which had too much emf enterference on the analog inputs...
+based on work done for a stm32 "blue-pill", which had too much interference on the analog inputs...
 i switched to the teensy to try to resolve that... switching to the 4.1 has some advantages, more input pins, 
 and a much higher performance cpu, more ram, more flash, as well as a built in microsd card reader.
 
