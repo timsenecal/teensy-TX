@@ -1,6 +1,7 @@
 # teensy-TX
+Teensy based r/c transmitter for r/c vehicles.
 
-this is an arduino IDE based source code for a Teensy 4.1 based transmitter for r/c vehicles.  
+this is an arduino IDE sketch for a (currently) Teensy 3.5/4.1 based transmitter for r/c vehicles.  
 
 based on work done for a stm32 "blue-pill", which had too much interference on the analog inputs...
 i switched to the teensy to try to resolve that... switching to the 4.1 has some advantages, more input pins, 
